@@ -6,6 +6,10 @@ import Counter from "../islands/Counter.tsx";
 // This kind of feels like react. jsx much.
 export default function Home() {
   return (
+    // Previous line
+    // <div class={tw`p-4 mx-auto max-w-screen-md`}>
+
+    // New line
     <div class={tw`p-4 mx-auto max-w-screen-md`} style={{ backgroundColor: 'orange' }}>
       <img
         src="/logo.svg"
