@@ -10,7 +10,7 @@ Introduction to Fresh. An alternative to popular client side rendering framework
 ## Step 1: Installing Fresh
 ```sh 
 curl -fsSL https://deno.land/install.sh | sh
-export DENO_INSTALL="/home/globotix/.deno"
+export DENO_INSTALL="/home/user/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 ```
 
