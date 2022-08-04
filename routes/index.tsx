@@ -3,6 +3,7 @@ import { h } from "preact";
 import { tw } from "@twind";
 import Counter from "../islands/Counter.tsx";
 
+// This kind of feels like react. jsx much.
 export default function Home() {
   return (
     <div class={tw`p-4 mx-auto max-w-screen-md`}>
@@ -12,10 +13,9 @@ export default function Home() {
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
       <p class={tw`my-6`}>
-        Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-        file, and refresh.
+        Hello World, welcome to my fresh new app!
       </p>
-      <Counter start={3} />
+      <Counter start={0} />
     </div>
   );
 }
