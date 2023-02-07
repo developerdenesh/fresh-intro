@@ -12,3 +12,23 @@ export function Button(props: h.JSX.HTMLAttributes<HTMLButtonElement>) {
     />
   );
 }
+
+export function DangerButton(props: h.JSX.HTMLAttributes<HTMLButtonElement>) {
+  return (
+    <button
+      {...props}
+      disabled={!IS_BROWSER || props.disabled}
+      class={tw`px-2 py-1 border(gray-100 2) hover:bg-red-200`}
+    />
+  );
+}
+
+export function SuccessButton(props: h.JSX.HTMLAttributes<HTMLButtonElement>) {
+  return (
+    <button
+      {...props}
+      disabled={!IS_BROWSER || props.disabled}
+      class={tw`px-2 py-1 border(gray-100 2) hover:bg-green-200`}
+    />
+  );
+}
