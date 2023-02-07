@@ -1,29 +1,16 @@
-# fresh-intro
-Introduction to Fresh. An alternative to popular client side rendering frameworks such as ReactJS
+# fresh project
 
-## Table of Contents
-1. [Installing Fresh](#step-1-installing-fresh)
-2. [Creating a project](#step-2-creating-a-project)
-3. [Running a project](#step-3-running-the-project)
-3. [Resources](#resources)
+### Usage
 
-## Step 1: Installing Fresh
-```sh 
-curl -fsSL https://deno.land/install.sh | sh
-export DENO_INSTALL="/home/user/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
-```
+Start the project:
 
-## Step 2: Creating a project 
-```sh 
-deno run -A -r https://fresh.deno.dev deno-project
-```
-
-## Step 3: Running the project 
 ```sh
 deno task start
 ```
-Head to http://localhost:8000 to view the project
 
-## Resources
-https://deno.com/blog/fresh-is-stable
+Source deno: 
+```sh
+ export PATH="/home/$USER/.deno/bin:$PATH
+```
+
+This will watch the project directory and restart as necessary.
